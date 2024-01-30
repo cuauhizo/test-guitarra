@@ -333,7 +333,7 @@ button:not(:disabled),
   }
 }
 @media (min-width: 1400px) {
-   .container-xl {
+  .container-xl {
     max-width: 1320px;
   }
 }

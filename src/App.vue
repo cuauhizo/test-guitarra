@@ -55,7 +55,7 @@ const guardarLocalStorage = () => {
   localStorage.setItem("carrito", JSON.stringify(carrito.value));
 };
 
-const agregarCarrito = (guitarra) => {  
+const agregarCarrito = (guitarra) => {
   const existeCarrito = carrito.value.findIndex(
     (producto) => producto.id === guitarra.id
   );
